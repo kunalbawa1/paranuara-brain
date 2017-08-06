@@ -58,6 +58,7 @@ projectname
    |   |
    |   |__ manage.py       # A command-line utility that lets you interact with the Brain server in various ways.
    |   |__ __init__.py
+```
 
 ## Additional Features
 Django Admin Webpage - Website that allows you to add, change or delete data regarding person, company etc.
