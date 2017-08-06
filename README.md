@@ -65,7 +65,7 @@ Django Admin Webpage - Website that allows you to add, change or delete data reg
 
 In order to use it an admin account needs to be created first, please perform the following steps to do so:
 1. cd /path/to/your/project
-2. source env/bin/activate (before doing this step please sure that ./run.sh is run at-least one else dependencies won't be installed)
+2. source env/bin/activate (before doing this step please make sure that ./run.sh is run at-least one else dependencies won't be installed.)
 3. python brain/manage.py createsuperuser (Please provide the desired credentials when prompted for)
 
 Lastly running the server:
