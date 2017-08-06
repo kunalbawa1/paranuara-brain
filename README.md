@@ -15,9 +15,9 @@ The application could be installed and run by performing the following steps:
 - ./run.sh (optional arguments: -h for the help section,
                                 -n to skip pip installations & db initialisation if already done once and virtualenv is activated using 'source env/bin/activate''.)
 - After this any requests can be to the server (running at 127.0.0.1:7000) for example:
-  -- http://0.0.0.0:7000/paranuara/employees?name=APPLICA
-  -- http://0.0.0.0:7000/paranuara/friends?p1=carmellalambert@earthmark.com&p2=deckermckenzie@earthmark.com
-  -- http://0.0.0.0:7000/paranuara/person?username=carmellalambert@earthmark.com
+  - http://0.0.0.0:7000/paranuara/employees?name=APPLICA
+  - http://0.0.0.0:7000/paranuara/friends?p1=carmellalambert@earthmark.com&p2=deckermckenzie@earthmark.com
+  - http://0.0.0.0:7000/paranuara/person?username=carmellalambert@earthmark.com
 
 The script run.sh is responsible for:
  - Installing and activating virtual environment.
