@@ -10,11 +10,11 @@ The government from Paranuara has provided two json files (located at resource f
 
 ## Installation
 The application could be installed and run by performing the following steps:
-- cd /path/to/your/workspace
-- git clone https://github.com/kunalbawa1/paranuara-brain.git projectname && cd projectname
-- ./run.sh (optional arguments: -h for the help section,
+1. cd /path/to/your/workspace
+2. git clone https://github.com/kunalbawa1/paranuara-brain.git projectname && cd projectname
+3. ./run.sh (optional arguments: -h for the help section,
                                 -n to skip pip installations & db initialisation if already done once and virtualenv is activated using 'source env/bin/activate''.)
-- After this any requests can be to the server (running at 127.0.0.1:7000) for example:
+4. After this any requests can be to the server (running at 127.0.0.1:7000) for example:
   - http://0.0.0.0:7000/paranuara/employees?name=APPLICA
   - http://0.0.0.0:7000/paranuara/friends?p1=carmellalambert@earthmark.com&p2=deckermckenzie@earthmark.com
   - http://0.0.0.0:7000/paranuara/person?username=carmellalambert@earthmark.com
