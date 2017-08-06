@@ -6,7 +6,7 @@ The government from Paranuara has provided two json files (located at resource f
 
 1. /paranuara/employees?name=COMPANY_NAME - The API needs to return all the employees for the provided company.
 2. /paranuara/friends?p1=USERNAME&p2=USERNAME - Given 2 person's username which in this will be the email, should provide their information (Name, Age, Address, phone) and the list of their friends in common which have brown eyes and are still alive.
-3. /paranuara/friends?username=USERNAME - Given 1 person's username, provide a list of fruits and vegetables they like. This endpoint must respect this interface for the output: {"username": "Ahi", "age": "30", "fruits": ["banana", "apple"], "vegetables": ["beetroot", "lettuce"]}
+3. /paranuara/person?username=USERNAME - Given 1 person's username, provide a list of fruits and vegetables they like. This endpoint must respect this interface for the output: {"username": "Ahi", "age": "30", "fruits": ["banana", "apple"], "vegetables": ["beetroot", "lettuce"]}
 
 ## Installation
 The application could be installed and run by performing the following steps:
@@ -14,6 +14,10 @@ The application could be installed and run by performing the following steps:
 - git clone https://github.com/kunalbawa1/paranuara-brain.git projectname && cd projectname
 - ./run.sh (optional arguments: -h for the help section,
                                 -n to skip pip installations & db initialisation if already done once and virtualenv is activated using 'source env/bin/activate''.)
+- After this any requests can be to the server (running at 127.0.0.1:7000) for example:
+  -- http://0.0.0.0:7000/paranuara/employees?name=APPLICA
+  -- http://0.0.0.0:7000/paranuara/friends?p1=carmellalambert@earthmark.com&p2=deckermckenzie@earthmark.com
+  -- http://0.0.0.0:7000/paranuara/person?username=carmellalambert@earthmark.com
 
 The script run.sh is responsible for:
  - Installing and activating virtual environment.
